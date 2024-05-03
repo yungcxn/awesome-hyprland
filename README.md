@@ -1,10 +1,18 @@
 # Awesome Hyprland
 
-(Things I don't like are removed)
+## Stuff I like:
+
+- [Hyprpicker](https://github.com/hyprwm/hyprpicker)  ![c++][cpp] (colorpicker)
+- [hyprlock](https://github.com/hyprwm/hyprlock) ![C++][cpp] (lock screen)
+- [hypridle](https://github.com/hyprwm/hypridle) ![C++][cpp] (idle daemon)
+- [tuigreet](https://github.com/apognu/tuigreet) ![rust][rs] (Graphical console greeter for greetd)
+- [shift_monitors](https://github.com/hyprland-community/pyprland/wiki/shift_monitors) (swaps monitors' workspaces)
+
+## Rest of the forked content:
 
 Awesome list for Hyprland, that includes useful tools and libraries that either work or are designed for Hyprland!
 
-## Language Bindings
+### Language Bindings
 
 - [Hyprland-rs](https://github.com/hyprland-community/hyprland-rs) ![rust][rs] (events, hyprctl, binds)
 - [Hyprland-py](https://github.com/hyprland-community/hyprland-py) ![python][py] (events, hyprctl, binds)
@@ -15,13 +23,13 @@ Awesome list for Hyprland, that includes useful tools and libraries that either 
 - [Hyprland_ipc](https://github.com/FlafyDev/hyprland_ipc) ![dart][da] (events, hyprctl)
 - [hyprpy](https://github.com/ulinja/hyprpy) ![python][py]  (events)
 
-## Hyprlang configuration tools
+### Hyprlang configuration tools
 
 - [tree-sitter-hyprlang](https://github.com/luckasRanarison/tree-sitter-hyprlang) ![c][c] (tree-sitter grammar for Hyprland config files, made to be used with neovim)
 - [hyprls](https://github.com/ewen-lbh/hyprls) ![go][go] (A LSP server for Hyprland configuration files)
 - [Hyprparse](https://github.com/hyprland-community/hyprparse) ![rust][rs] (Hypr config file parser, with support for the web)
 
-## Plugins
+### Plugins
 
 - [split-monitor-workspaces](https://github.com/Duckonaut/split-monitor-workspaces) ![c++][cpp] (A small Hyprland plugin to provide awesome-like workspace behavior)
 - [hyprgrass](https://github.com/horriblename/hyprgrass) ![c++][cpp] (Hyprland plugin for touch gestures)
@@ -40,7 +48,7 @@ Awesome list for Hyprland, that includes useful tools and libraries that either 
 - [hyprslidr](https://gitlab.com/magus/hyprslidr) ![c++][cpp] (A Hyprland plugin for a sliding window layout. Inspired by PaperWM.)
 
 
-### [Official plugins](https://github.com/hyprwm/hyprland-plugins)
+#### [Official plugins](https://github.com/hyprwm/hyprland-plugins)
 
 - [border++](https://github.com/hyprwm/hyprland-plugins/tree/main/borders-plus-plus) ![c++][cpp] (Adds one or two additional borders to windows)
 - [hyprbars](https://github.com/hyprwm/hyprland-plugins/tree/main/hyprbars) ![c++][cpp] (Adds title bars to windows)
@@ -49,7 +57,7 @@ Awesome list for Hyprland, that includes useful tools and libraries that either 
 - [hyprwinwrap](https://github.com/hyprwm/hyprland-plugins/tree/main/hyprwinwrap) ![c++][cpp] (Allows you to put any app as a wallpaper)
 - [hyprexpo](https://github.com/hyprwm/hyprland-plugins/tree/main/hyprexpo) ![c++][cpp] (Adds an expo-like workspace overview)
 
-### IPC plugins
+#### IPC plugins
 
 These technically aren't hyprland plugins, but extend hyprland functionality using only IPC
 
@@ -72,16 +80,16 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [Hyprland-rs](https://github.com/hyprland-community/hyprland-rs) ![rust][rs]
     - [no_decorations_when_only](https://github.com/diniamo/no_decorations_when_only) (hides window decorations when there is only one window visible)
 
-## Tools
+### Tools
 
-### Official tools
+#### Official tools
 
 - [Hyprpaper](https://github.com/hyprwm/hyprpaper) ![c++][cpp] (wallpaper daemon)
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker)  ![c++][cpp] (colorpicker)
 - [hyprlock](https://github.com/hyprwm/hyprlock) ![C++][cpp] (lock screen)
 - [hypridle](https://github.com/hyprwm/hypridle) ![C++][cpp] (idle daemon)
 
-### Status Bar/Shell
+#### Status Bar/Shell
 
 - [quickshell](https://quickshell.outfoxxed.me/) ![c++][cpp] (Simple and flexbile QtQuick based desktop shell toolkit)
 - [ags](https://aylur.github.io/ags-docs/) ![typescript][ts] (A customizable and extensible shell for Hyprland)
@@ -95,9 +103,9 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [nwg-dock-hyprland](https://github.com/nwg-piotr/nwg-dock-hyprland) ![go][go] (GTK3-based dock for Hyprland)
 - [gBar](https://github.com/scorpion-26/gBar) ![c++][cpp] (GTK3 based blazingly fast and efficient status bar)
 
-### Notifications
+#### Notifications
 
-#### Notification Daemons
+##### Notification Daemons
 
 - [mako](https://github.com/emersion/mako) ![c][c] (Very simple and configurable notification daemon)
 - [dunst](https://dunst-project.org/) ![c][c] (Very customizable notification daemon)
@@ -105,13 +113,13 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [fnott](https://codeberg.org/dnkl/fnott) ![c][c] (Featureful and configurable notification daemon)
 - [hyprnotify](https://github.com/codelif/hyprnotify) ![go][go] (Notification daemon with 'hyprctl notify' as backend)
 
-#### OSD
+##### OSD
 
 - [SwayOSD](https://github.com/ErikReider/SwayOSD) ![rust][rs] (GNOME like OSD written in gtk)
 - [Avizo](https://github.com/misterdanb/avizo) ![vala][va] (macOS like OSD written in gtk, also comes with nice scripts)
 - [Wob](https://github.com/francma/wob) ![c][c] (dead simple OSD inspired by xob)
 
-### Runners, Menus, and Application Launchers
+#### Runners, Menus, and Application Launchers
 
 - [rofi-wayland](https://github.com/lbonn/rofi) ![c][c] (Rofi fork with support for wlroots)
 - [tofi](https://github.com/philj56/tofi) ![c][c] (very tiny rofi inspired menu)
@@ -122,7 +130,7 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [hypr-empty](https://github.com/nate-sys/hypr-empty) ![rust][rs] (Open a runner on empty workspaces)
 - [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) ![go][go] (Gnome-ish application drawer)
 
-### Wallpaper
+#### Wallpaper
 
 - [Hyprpaper](https://github.com/hyprwm/hyprpaper) ![c++][cpp] (blazing fast wayland wallpaper utility with IPC controls)
 - [swww](https://github.com/Horus645/swww) ![rust][rs] (Wallpaper daemon with live switching, awesome animations, and GIF support)
@@ -132,7 +140,7 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [waypaper engine](https://github.com/0bCdian/Waypaper-Engine) ![typescript][ts] (GUI wallpaper setter with playlist capabilities)
 - [wpaperd](https://github.com/danyspin97/wpaperd) ![rust][rs] (Minimal wallpaper daemon for Wayland)
 
-### Display
+#### Display
 
 - [iio-hyprland](https://github.com/JeanSchoeller/iio-hyprland) ![c][c] (Listen iio-sensor-proxy and auto change Hyprland output orientation)
 - [wlr-rander](https://sr.ht/~emersion/wlr-randr/) ![c][c] (An xrandr clone for wlroots compositors)
@@ -144,7 +152,7 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [wluma](https://github.com/maximbaz/wluma) ![rust][rs] (Automatically adjust screen brightness based on the screen contents and amount of ambient light)
 - [wlsunset](https://sr.ht/~kennylevinsen/wlsunset/) ![c][c] (Day/night gamma adjustments for Wayland)
 
-### Workspace
+#### Workspace
 
 - [hypract](https://github.com/hyprland-community/hypract) ![rust][rs] (Adds KDE plasma like activities to Hyprland **WIP**)
 - [hyprdim](https://github.com/donovanglover/hyprdim) ![rust][rs] (Automatically dim windows when switching between them)
@@ -154,9 +162,9 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [hyprswitch](https://github.com/H3rmt/hyprswitch) ![rust][rs] (A CLI/GUI that allows switching between windows in Hyprland)
 - [hypr-ws-switcher](https://github.com/jasper-at-windswept/hypr-ws-switcher) ![shell][sh] (A script to switch workspaces based on the active screen, like awesomewm)
 
-### Screenshotting
+#### Screenshotting
 
-#### All in one Tools
+##### All in one Tools
 
 - [Watershot](https://github.com/Kirottu/watershot) ![rust][rs] (A simple wayland native screenshot tool)
 - [Grimblast](https://github.com/hyprwm/contrib/tree/main/grimblast) ![shell][sh] (Port of grimshot, which is an abstraction over grim and slurp)
@@ -165,7 +173,7 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [satty](https://github.com/gabm/satty) ![rust][rs] (A screenshot annotation tool inspired by Swappy and Flameshot)
 - [swappy](https://github.com/jtheoof/swappy) ![c][c] (A Wayland native snapshot editing tool, inspired by Snappy on macOS)
 
-#### Raw Tools
+##### Raw Tools
 
 - [Grim](https://git.sr.ht/~emersion/grim) ![c][c] (basic screenshot tool)
 - [grim-hyprland](https://github.com/eriedaberrie/grim-hyprland) ![c][c] (drop-in replacement Grim fork with support for Hyprland's window capture protocol)
@@ -173,52 +181,52 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [slurp](https://github.com/emersion/slurp) ![c][c] (basic area selection tool)
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker)  ![c++][cpp] (wlroots-compatible Wayland color picker that does not suck)
 
-#### Recording
+##### Recording
 
 - [wf-recorder](https://github.com/ammen99/wf-recorder) ![c++][cpp] (Simple screenrecorder, like grim but records video)
 - [wl-screenrec](https://github.com/russelltg/wl-screenrec) ![rust][rs] (Simple and efficient screenrecorder for AMD and Intel GPUs)
 
-#### Annotation
+##### Annotation
 
 - [swappy](https://github.com/jtheoof/swappy) ![c][c] (Annotation gui made in gtk)
 
-### Input
+#### Input
 
 - [Hyprkeys](https://github.com/hyprland-community/Hyprkeys) ![go][go] (Utility for dealing with keybinds in Hyprland)
 - [hyprland-per-window-layout](https://github.com/coffebar/hyprland-per-window-layout) ![rust][rs] (Per window keyboard layout, zero-configuration, just works out of the box)
 - [hyprland-per-window-layout](https://github.com/MahouShoujoMivutilde/hyprland-per-window-layout) ![shell][sh] (Script to maintain per window keyboard layout) (language)
 
-#### On-screen Keyboards
+##### On-screen Keyboards
 
 - [wvkbd](https://github.com/jjsullivan5196/wvkbd) ![c][c] (On-screen keyboard for wlroots)
 
-### Locking, Idle, Clipboard and Login
+#### Locking, Idle, Clipboard and Login
 
-#### Misc
+##### Misc
 
 - [Wlogout](https://github.com/ArtsyMacaw/wlogout) ![c][c] (Logout menu)
 - [wayprompt](https://git.sr.ht/~leon_plickat/wayprompt) ![zig][z] (pinentry prompter)
 - [nwg-bar](https://github.com/nwg-piotr/nwg-bar) ![go][go] (GTK3-based logout bar)
 - [wleave](https://github.com/AMNatty/wleave) ![rust][rs] (A Wayland-native logout script written in Gtk3)
 
-#### Idle Daemons
+##### Idle Daemons
 
 - [hypridle](https://github.com/hyprwm/hypridle) ![c++][cpp] (Hyprland's idle daemon)
 - [swayidle](https://github.com/swaywm/swayidle) ![c][c] (Idle daemon used by default in sway, also only one I could find for wlroots)
 
-#### Lockers
+##### Lockers
 
 - [swaylock](https://github.com/swaywm/swaylock) ![c][c] (Sway's default locker, very configurable, and popular)
 - [swaylock-effects](https://github.com/mortie/swaylock-effects) ![c][c] (Fork of swaylock, but with effects ^)
 - [waylock](https://codeberg.org/ifreund/waylock) ![zig][z] (A small screenlocker for Wayland compositors)
 - [hyprlock](https://github.com/hyprwm/hyprlock) ![c++][cpp] (Hyprland's GPU-accelerated screen locking utility)
 
-#### Clipboard Managers
+##### Clipboard Managers
 
 - [clipman](https://github.com/chmouel/clipman) ![go][go] (A simple clipboard manager for Wayland)
 - [cliphist](https://github.com/sentriz/cliphist) ![go][go] (Wayland clipboard manager)
 
-##### Display Managers
+###### Display Managers
 
 - [GDM](https://wiki.gnome.org/Projects/GDM) ![c][c]
 - [SDDM](https://github.com/sddm/sddm) ![c++][cpp]
