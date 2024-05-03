@@ -1,6 +1,6 @@
 # Awesome Hyprland
 
-[![Discord](https://img.shields.io/discord/1055990214411169892?label=discord)](https://discord.gg/zzWqvcKRMy)
+(Things I don't like are removed)
 
 Awesome list for Hyprland, that includes useful tools and libraries that either work or are designed for Hyprland!
 
@@ -110,10 +110,6 @@ These technically aren't hyprland plugins, but extend hyprland functionality usi
 - [SwayOSD](https://github.com/ErikReider/SwayOSD) ![rust][rs] (GNOME like OSD written in gtk)
 - [Avizo](https://github.com/misterdanb/avizo) ![vala][va] (macOS like OSD written in gtk, also comes with nice scripts)
 - [Wob](https://github.com/francma/wob) ![c][c] (dead simple OSD inspired by xob)
-
-#### Misc
-
-- [Ianny](https://github.com/zefr0x/ianny) ![rust][rs] (Periodically informs user to take breaks by keeping track of usage patterns)
 
 ### Runners, Menus, and Application Launchers
 
