@@ -7,6 +7,8 @@
 - [hypridle](https://github.com/hyprwm/hypridle) ![C++][cpp] (idle daemon)
 - [tuigreet](https://github.com/apognu/tuigreet) ![rust][rs] (Graphical console greeter for greetd)
 - [shift_monitors](https://github.com/hyprland-community/pyprland/wiki/shift_monitors) (swaps monitors' workspaces)
+- hyprsome
+- hyprcursor
 
 ## Rest of the forked content:
 
